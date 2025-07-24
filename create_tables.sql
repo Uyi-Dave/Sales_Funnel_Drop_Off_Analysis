@@ -1,0 +1,20 @@
+CREATE TABLE online_sessions (
+    Administrative INTEGER,
+    Administrative_Duration FLOAT,
+    Informational INTEGER,
+    Informational_Duration FLOAT,
+    ProductRelated INTEGER,
+    ProductRelated_Duration FLOAT,
+    BounceRates FLOAT,
+    ExitRates FLOAT,
+    PageValues FLOAT,
+    SpecialDay FLOAT,
+    Month VARCHAR(10),
+    OperatingSystems INTEGER,
+    Browser INTEGER,
+    Region INTEGER,
+    TrafficType INTEGER,
+    VisitorType VARCHAR(30),
+    Weekend BOOLEAN,
+    Revenue BOOLEAN
+);
