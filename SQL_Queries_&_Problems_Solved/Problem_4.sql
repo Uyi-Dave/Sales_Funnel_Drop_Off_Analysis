@@ -1,32 +1,8 @@
--- Question:
--- Do users who spend time on the product related page but don't purchase share any patterns?
+/*
+Question:
+        Do users who spend time on the product related page but don't purchase share any patterns?
+*/
 
-SELECT 
-    CASE 
-        WHEN visitortype = 'Returning_Visitor' THEN 'Returning Visitor'
-        WHEN visitortype = 'New_Visitor' THEN 'New Visitor'
-        ELSE 'Other'
-    END AS visitor_type1,
-    traffictype,
-    ROUND((AVG(productrelated_duration)/3600)::NUMERIC, 2) AS avg_product_page_duration_hr,
-    COUNT(*) AS user_count,
-    ROUND(AVG(bouncerates)::NUMERIC, 3) AS avg_bounce_rate,
-    ROUND(AVG(exitrates)::NUMERIC, 3) AS avg_exit_rate
-FROM 
-    online_sessions
-WHERE 
-    productrelated > 0 AND revenue = FALSE
-GROUP BY 
-    visitor_type1,
-    traffictype
-ORDER BY 
-    avg_product_page_duration_hr DESC;
-
-
-
-
-
--- COMPARING DURATION WITH NON CONVERSION - Do long durations convert?
 SELECT 
     time_bracket,
     COUNT(*) AS total_sessions,

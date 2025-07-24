@@ -1,6 +1,6 @@
 /*
 Question 1:
-At what stage in the user journey do most users drop off?
+        At what stage in the user journey do most users drop off?
 */
 
 -- Count of sessions with the different page visits

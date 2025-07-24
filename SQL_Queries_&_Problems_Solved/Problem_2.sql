@@ -1,5 +1,7 @@
--- Question 2:
--- How do visitor types (New vs Returning) affect conversion rates?
+/*
+Question 2:
+        How do visitor types (New vs Returning) affect conversion rates?
+        */
 
 SELECT 
     visitortype AS "Visitor Type",

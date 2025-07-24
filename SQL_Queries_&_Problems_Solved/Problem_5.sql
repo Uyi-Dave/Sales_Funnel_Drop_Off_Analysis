@@ -1,7 +1,8 @@
--- Question:
--- What impact does time(month or weekend) have on user purchase behaviour?
+/*
+Question:
+        What impact does time(month or weekend) have on user purchase behaviour?
+*/
 
--- CONVERSION RATES PER MONTH
 SELECT
     CASE 
         WHEN MONTH = 'Jan' THEN 'January'

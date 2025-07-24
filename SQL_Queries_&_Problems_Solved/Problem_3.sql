@@ -1,4 +1,7 @@
--- Question 3: Which traffic sources bring the most valuable (i.e converting) visitors?
+/*
+Question 3: 
+        Which traffic sources bring the most valuable (i.e converting) visitors?
+*/
 
 SELECT
     CASE
