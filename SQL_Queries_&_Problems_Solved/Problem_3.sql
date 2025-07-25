@@ -1,6 +1,6 @@
 /*
 Question 3: 
-        Which traffic sources bring the most valuable (i.e converting) visitors?
+        Traffic Source Quality – Which sources bring the highest converting users?
 */
 
 SELECT

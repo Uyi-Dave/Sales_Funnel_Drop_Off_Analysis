@@ -1,6 +1,6 @@
 /*
-Question:
-        What impact does time(month or weekend) have on user purchase behaviour?
+Question 5:
+        Time-Based Trends – How does timing (e.g., month or weekends) affect purchase behavior?
 */
 
 SELECT

@@ -1,6 +1,6 @@
 /*
-Question:
-        Do users who spend time on the product related page but don't purchase share any patterns?
+Question 4:
+        Abandonment Behavior – Are there common traits among users who explore products but don’t convert?
 */
 
 SELECT 
